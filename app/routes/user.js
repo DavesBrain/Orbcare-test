@@ -1,11 +1,10 @@
 import Ember from 'ember';
-export default Ember.Route.extend({
-    model(params) {
-        //return this.store.query('user', { id: 1 });    
 
-        return {
-            id: params.item_id,
-            fname: "This is item " + params.item_id
-        }
+var userRoute = Ember.Route.extend({
+    model(params) {
+        return this.modelFor('users').user.findBy('id', params.user_id);
     }
 });
+
+
+export default userRoute;

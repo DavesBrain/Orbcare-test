@@ -16,7 +16,6 @@
                     </thead>
 
                     {{#each model as |user|}}
-                    
                     <tr>
                         <td>{{user.id}} </td>
 
@@ -29,16 +28,9 @@
                 </table>
             </td>
             <td class="table-detail">
-                {{fname}}
-                Foo{{user}}                
+                ::{{outlet}}                
             </td>
         </tr>
     </table>
 </div>
 
-
-
-<!--
-{ {user-list title="List of Users" users=model}}
-{ {outlet}}
--->

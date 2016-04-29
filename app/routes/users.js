@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({
+var usersRoute = Ember.Route.extend({
     model() {
         return this.store.findAll('user');
     },
@@ -13,4 +13,5 @@ export default Ember.Route.extend({
 //        }
 //    }
 });
+export default usersRoute;
 
