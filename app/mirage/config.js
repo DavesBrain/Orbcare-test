@@ -3,60 +3,24 @@ export default function() {
     this.get('/users', function() {
         return {
             data: [{
-                type: 'users',
-                id: 4,
-                    attributes: {
+                id: 1,
+                    details: {
                     fname: 'Andy',
                     lname: 'Ashford',
                     phone: '111-111-1111',
-                    address: '',
-                    city: 'Toronto',
-                    province: 'ON',
-                    country: 'Canada',
-                    postalcode: 'M8X1R1'
+                    country: 'Canada'
                 }
             }, {
-                type: 'users',
-                id: 3,
-                attributes: {
+                id: 2,
+                details: {
                     fname: 'Betty',
                     lname: 'Beckett',
                     phone: '222-222-2222',
-                    address: '',
-                    city: 'Toronto',
-                    province: 'ON',
-                    country: 'Canada',
-                    postalcode: 'M8X1R1'
-                }
-            }, {
-                type: 'users',
-                id: 1,
-                attributes: {
-                    fname: 'Carl',
-                    lname: 'Crompton',
-                    phone: '333-333-3333',
-                    address: '',
-                    city: 'Toronto',
-                    province: 'ON',
-                    country: 'Canada',
-                    postalcode: 'M8X1R1'
-                }
-            }, {
-                type: 'users',
-                id: 2,
-                attributes: {
-                    fname: 'Carl',
-                    lname: 'Crompton',
-                    phone: '333-333-3333',
-                    address: '',
-                    city: 'Toronto',
-                    province: 'ON',
-                    country: 'Canada',
-                    postalcode: 'M8X1R1'
+                    country: 'Canada'
                 }
             }]
         };
-    });    
+    });
     
 
 /* TODO: REMOVE helper comments */    
