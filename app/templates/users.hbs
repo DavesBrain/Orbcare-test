@@ -1,9 +1,9 @@
-<h2>List o' Users</h2>
-
+<h2>Users</h2>
 <div class="table-wrapper">
     <h4>{{title}}</h4>
-
-    <table class="with-detail">
+    <label>Search: <input class="search" type="text"/></label>
+    
+    <table>
         <tr>
             <td class="table-overview">
                 <table class="user-table">
@@ -16,27 +16,43 @@
                     </thead>
 
                     {{#each model as |user|}}
-                    <tr>
+                    <tr {{action 'showDetails'}}>
                         <td>
                             {{#link-to 'users.user' user}}
                                 {{user.id}} 
                             {{/link-to}}
                         </td>
 
-                        <td>{{user.fname}}</td>
-                        <td>{{user.lname}}</td>
-                        <td>{{user.phone}}</td>
-                        <td>{{user.country}}</td>
+                        <td>
+                            {{#link-to 'users.user' user}}
+                                {{user.details.fname}}
+                            {{/link-to}}
+                        </td>
+                        <td>
+                            {{#link-to 'users.user' user}}
+                                {{user.details.lname}}
+                            {{/link-to}}
+                        </td>
+                        <td>
+                            {{#link-to 'users.user' user}}
+                                {{user.details.phone}}
+                            {{/link-to}}
+                        </td>
+                        <td>
+                            {{#link-to 'users.user' user}}
+                                {{user.details.country}}
+                            {{/link-to}}
+                        </td>
                     </tr>
                   {{/each}}
                 </table>
             </td>
             <td class="table-detail">
-                Detail:
-                
-                {{outlet}}                
+                <div class="with-details">
+                    {{outlet}}
+                </div>
             </td>
-        </tr>
+            </tr>
     </table>
 </div>
 

@@ -1,7 +1,12 @@
-User Template [[{{model.id}}]]
-First Name: {{model.fname}}
-
-[[[{{yield}}]]]
-|||
-
-<button >Close</button>
+<div class="detail-header">{{model.details.fname}} {{model.details.lname}}</div>
+<ul>
+    <li><label>First Name:</label>      <span>{{model.details.fname}}</span></li>
+    <li><label>Last Name:</label>       <span>{{model.details.lname}}</span></li>
+    <li><label>Phone:</label>           <span>{{model.details.phone}}</span></li>
+    <li><label>Address:</label>         <span>{{model.details.address}}</span></li>
+    <li><label>City:</label>            <span>{{model.details.city}}</span></li>
+    <li><label>Province/State:</label>  <span>{{model.details.province}}</span></li>
+    <li><label>Country:</label>         <span>{{model.details.country}}</span></li>
+    <li><label>Postal Code:</label>     <span>{{model.details.postalcode}}</span></li>
+</ul>
+<button  {{action 'hideDetails'}}>Close</button>
