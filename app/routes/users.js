@@ -1,11 +1,11 @@
 import Ember from 'ember';
+//import users from '../mirage/config';
+import InfinityRoute from "ember-infinity/mixins/route";
 
-import { users } from '../mirage/fixtures/data';
 
-var usersRoute = Ember.Route.extend({
+var usersRoute = Ember.Route.extend(InfinityRoute, {
     model() {
-        return users;
+        return this.infinityModel('user', { perPage: 12, startingPage: 1 });
     }
 });
 export default usersRoute;
-
