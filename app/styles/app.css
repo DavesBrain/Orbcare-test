@@ -1,7 +1,3 @@
-
-
-
-
 /*
 .green { background-color: #73b148; }
 .light-blue { background-color: #f0f3fc; }
@@ -23,11 +19,9 @@ a {
     text-decoration: none;
 }
 
-
 #main-wrapper {
     border: 2px solid silver;
 }
-
 .main-header {
     background-color: #5c9fdb;
 }
@@ -42,106 +36,90 @@ a {
     color: white;
 }
 
-.table-wrapper {
+.content {
     padding: 10px;
 }
-.table-wrapper .search {
+.content .search {
     margin: 4px;
 }
-.table-wrapper table {
+
+.master-detail-wrapper{
+    display: flex;
+}
+
+.master {
     width: 100%;
-    border: 1px solid silver;
 }
-.table-wrapper table tr {
-    vertical-align: top;
+.show-detail .master {
+    flex: 0 0 65%;
 }
-
-
-.table-wrapper table td.table-overview {
-/*    width: 100%;*/
-}
-.table-wrapper table td.table-detail {
-/*
-    width: 0;
+.detail {
     display: none;
-*/
+}
+.show-detail .detail {
+    display: inline-block;
+    flex: 1;
 }
 
-.table-wrapper table td.table-overview {
-/*
-    //width: 60%;
-    //border: 4px solid red;
-*/
-}
-.table-wrapper table td.table-detail .with-detail {
-    border: 4px solid red;
-/*
-    width: 100%;
-    display: block;
-*/
-}
-
-
-
-.user-table{
+.master table {
     width: 100%;
 }
-.user-table th {
+.master table th {
     background-color: #73b148;
     color: white;
     padding: 6px;
 }
-.user-table tr:nth-child(even) {
+.master table tr:nth-child(even) {
     background-color: #f0f3fc;
 }
-.user-table tr:nth-child(odd) {
+.master table tr:nth-child(odd) {
     background-color: #d4dbf2;
 }
-.user-table tr:hover td {
+.master table td a {
+    color: black;
+    display: block;
+    padding: 6px;
+}
+.master table tr:hover td {
     cursor: pointer;
     color: white;
     background-color:  #5c9fdb;
 }
-
-.user-table td {
-    padding: 6px;
-    text-align: center;
+.master table tr:hover td a {
+    color: white;
+}
+.master table td {
+    text-align: left;
 }
 
-.table-detail {
-    position: relative;
-}
-.table-detail .detail-header {
+.detail .header {
     height: 20px;
     background-color: #EEE;
     padding-left: 4px;
     padding-top: 7px;
     margin-right: 2px;
-
 }
-.table-detail ul {
+.detail ul {
     margin-left: 0;
     padding-left: 4px;
 }
-.table-detail ul li {
+.detail ul li {
     list-style-type: none;
     margin-left: 0;
     padding-left: 4px;
 }
-.table-detail label {
+.detail label {
     width: 100px;
     display: inline-block;
 }
-.table-detail span {
+.detail span {
     display: inline-block;
 }
-.table-detail button {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+.detail button {
     padding: 6px 30px;
     color: white;
     background-color: #5c9fdb;
     border:1px solid black;
     border-radius: 8px;
+    float: right;
 }

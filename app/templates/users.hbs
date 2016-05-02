@@ -1,58 +1,54 @@
 <h2>Users</h2>
-<div class="table-wrapper">
+<div class="content">
     <h4>{{title}}</h4>
     <label>Search: <input class="search" type="text"/></label>
-    
-    <table>
-        <tr>
-            <td class="table-overview">
-                <table class="user-table">
-                    <thead>
-                        <th>#</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Phone Number</th>
-                        <th>Country</th>    
-                    </thead>
+    <div class="master-detail-wrapper  {{if withDetail "show-detail"}}">
+        <div class='master {{if withDetail "show-detail"}}'>
+            <table>
+                <thead>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone Number</th>
+                    <th>Country</th>    
+                </thead>
 
-                    {{#each model as |user|}}
-                    <tr {{action 'showDetails'}}>
-                        <td>
-                            {{#link-to 'users.user' user}}
-                                {{user.id}} 
-                            {{/link-to}}
-                        </td>
+                {{#each model as |user|}}
+                <tr {{action 'showDetail'}}>
+                    <td>
+                        {{#link-to 'users.user' user}}
+                            {{user.id}} 
+                        {{/link-to}}
+                    </td>
 
-                        <td>
-                            {{#link-to 'users.user' user}}
-                                {{user.details.fname}}
-                            {{/link-to}}
-                        </td>
-                        <td>
-                            {{#link-to 'users.user' user}}
-                                {{user.details.lname}}
-                            {{/link-to}}
-                        </td>
-                        <td>
-                            {{#link-to 'users.user' user}}
-                                {{user.details.phone}}
-                            {{/link-to}}
-                        </td>
-                        <td>
-                            {{#link-to 'users.user' user}}
-                                {{user.details.country}}
-                            {{/link-to}}
-                        </td>
-                    </tr>
-                  {{/each}}
-                </table>
-            </td>
-            <td class="table-detail">
-                <div class="with-details">
-                    {{outlet}}
-                </div>
-            </td>
-            </tr>
-    </table>
+                    <td>
+                        {{#link-to 'users.user' user}}
+                            {{user.details.fname}}
+                        {{/link-to}}
+                    </td>
+                    <td>
+                        {{#link-to 'users.user' user}}
+                            {{user.details.lname}}
+                        {{/link-to}}
+                    </td>
+                    <td>
+                        {{#link-to 'users.user' user}}
+                            {{user.details.phone}}
+                        {{/link-to}}
+                    </td>
+                    <td>
+                        {{#link-to 'users.user' user}}
+                            {{user.details.country}}
+                        {{/link-to}}
+                    </td>
+                </tr>
+              {{/each}}
+            </table>
+        </div>
+        <div class="detail">
+            {{outlet}}
+            <button  {{action 'hideDetail'}}>Close</button>
+        </div>
+    </div>
 </div>
 

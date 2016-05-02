@@ -4,12 +4,10 @@ export default Ember.Controller.extend({
     withDetail: false,
 
     actions: {
-        showDetails: function() {
-            console.log(":)");
+        showDetail: function() {
             this.set('withDetail', true);
         },
-        hideDetails: function() {
-            console.log(":(");
+        hideDetail: function() {
             this.set('withDetail', false);
         }
     }
