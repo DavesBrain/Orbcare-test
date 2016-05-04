@@ -68,12 +68,16 @@ a {
     background-color: #73b148;
     color: white;
     padding: 6px;
+    text-align: left;
 }
 .master table tr:nth-child(even) {
     background-color: #f0f3fc;
 }
 .master table tr:nth-child(odd) {
     background-color: #d4dbf2;
+}
+.master table td.id {
+    width: 50px;
 }
 .master table td a {
     color: black;

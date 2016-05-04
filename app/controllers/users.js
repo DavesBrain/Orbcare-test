@@ -9,6 +9,13 @@ export default Ember.Controller.extend({
         },
         hideDetail: function() {
             this.set('withDetail', false);
+        },
+        searchUsers: function(params) {
+            this.store.query('user', { filter: { id: params } }).then(function(answer){
+                console.log(":)");
+                console.log(answer);
+                console.log(":)");
+             });
         }
     }
 });

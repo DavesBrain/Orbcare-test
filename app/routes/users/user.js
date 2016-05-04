@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import { users } from '../../mirage/fixtures/data'
 
 export default Ember.Route.extend({
     model(params) {

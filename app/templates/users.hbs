@@ -1,7 +1,9 @@
 <h2>Users</h2>
 <div class="content">
     <h4>{{title}}</h4>
-    <label>Search: <input class="search" type="text"/></label>
+    <label>Search: 
+        {{input key-up="searchUsers"}}        
+    </label>
     <div class="master-detail-wrapper  {{if withDetail "show-detail"}}">
         <div class='master {{if withDetail "show-detail"}}'>
             <table>
@@ -15,30 +17,30 @@
 
                 {{#each model as |user|}}
                 <tr {{action 'showDetail'}}>
-                    <td>
+                    <td class="id">
                         {{#link-to 'users.user' user}}
                             {{user.id}} 
                         {{/link-to}}
                     </td>
 
-                    <td>
+                    <td class="fname">
                         {{#link-to 'users.user' user}}
-                            {{user.details.fname}}
+                            {{user.fname}}
                         {{/link-to}}
                     </td>
-                    <td>
+                    <td class="lname">
                         {{#link-to 'users.user' user}}
-                            {{user.details.lname}}
+                            {{user.lname}}
                         {{/link-to}}
                     </td>
-                    <td>
+                    <td class="phone">
                         {{#link-to 'users.user' user}}
-                            {{user.details.phone}}
+                            {{user.phone}}
                         {{/link-to}}
                     </td>
-                    <td>
+                    <td class="country">
                         {{#link-to 'users.user' user}}
-                            {{user.details.country}}
+                            {{user.country}}
                         {{/link-to}}
                     </td>
                 </tr>

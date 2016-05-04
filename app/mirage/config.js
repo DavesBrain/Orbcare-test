@@ -4,7 +4,8 @@ export default function() {
         return {
             data: [{
                 "id": 0,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Jeanine",
                   "lname": "Sanford",
                   "phone": "(963) 535-2006",
@@ -17,7 +18,8 @@ export default function() {
               },
               {
                 "id": 1,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Sexton",
                   "lname": "Burris",
                   "phone": "(984) 408-3602",
@@ -30,7 +32,8 @@ export default function() {
               },
               {
                 "id": 2,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Gaines",
                   "lname": "Lee",
                   "phone": "(961) 401-3669",
@@ -43,7 +46,8 @@ export default function() {
               },
               {
                 "id": 3,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Marsh",
                   "lname": "French",
                   "phone": "(964) 487-3937",
@@ -56,7 +60,8 @@ export default function() {
               },
               {
                 "id": 4,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Lynn",
                   "lname": "Gilbert",
                   "phone": "(843) 406-3421",
@@ -69,7 +74,8 @@ export default function() {
               },
               {
                 "id": 5,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Vanessa",
                   "lname": "Glover",
                   "phone": "(949) 485-2423",
@@ -82,7 +88,8 @@ export default function() {
               },
               {
                 "id": 6,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Haynes",
                   "lname": "Eaton",
                   "phone": "(910) 574-2942",
@@ -95,7 +102,8 @@ export default function() {
               },
               {
                 "id": 7,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Arline",
                   "lname": "Mathews",
                   "phone": "(951) 429-3492",
@@ -108,7 +116,8 @@ export default function() {
               },
               {
                 "id": 8,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Mcmillan",
                   "lname": "Bullock",
                   "phone": "(813) 563-3715",
@@ -121,7 +130,8 @@ export default function() {
               },
               {
                 "id": 9,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Nona",
                   "lname": "Heath",
                   "phone": "(962) 478-2127",
@@ -134,7 +144,8 @@ export default function() {
               },
               {
                 "id": 10,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Greene",
                   "lname": "Blake",
                   "phone": "(988) 514-2954",
@@ -147,7 +158,8 @@ export default function() {
               },
               {
                 "id": 11,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Jacklyn",
                   "lname": "Avery",
                   "phone": "(882) 468-2173",
@@ -160,7 +172,8 @@ export default function() {
               },
               {
                 "id": 12,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Padilla",
                   "lname": "Barlow",
                   "phone": "(889) 438-2829",
@@ -173,7 +186,8 @@ export default function() {
               },
               {
                 "id": 13,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Ortega",
                   "lname": "Meyer",
                   "phone": "(894) 509-2548",
@@ -186,7 +200,8 @@ export default function() {
               },
               {
                 "id": 14,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Delia",
                   "lname": "Benton",
                   "phone": "(932) 450-2602",
@@ -199,7 +214,8 @@ export default function() {
               },
               {
                 "id": 15,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Dunlap",
                   "lname": "Emerson",
                   "phone": "(809) 585-3839",
@@ -212,7 +228,8 @@ export default function() {
               },
               {
                 "id": 16,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Dejesus",
                   "lname": "Parks",
                   "phone": "(861) 486-2407",
@@ -225,7 +242,8 @@ export default function() {
               },
               {
                 "id": 17,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "John",
                   "lname": "Weber",
                   "phone": "(805) 426-2702",
@@ -238,7 +256,8 @@ export default function() {
               },
               {
                 "id": 18,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Mariana",
                   "lname": "Alvarez",
                   "phone": "(846) 557-3394",
@@ -251,7 +270,8 @@ export default function() {
               },
               {
                 "id": 19,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Hubbard",
                   "lname": "Juarez",
                   "phone": "(975) 589-3617",
@@ -264,7 +284,8 @@ export default function() {
               },
               {
                 "id": 20,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Mills",
                   "lname": "Hodge",
                   "phone": "(804) 427-2595",
@@ -277,7 +298,8 @@ export default function() {
               },
               {
                 "id": 21,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Banks",
                   "lname": "Jefferson",
                   "phone": "(934) 434-2120",
@@ -290,7 +312,8 @@ export default function() {
               },
               {
                 "id": 22,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Minerva",
                   "lname": "Gamble",
                   "phone": "(845) 442-2749",
@@ -303,7 +326,8 @@ export default function() {
               },
               {
                 "id": 23,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Zamora",
                   "lname": "Pacheco",
                   "phone": "(916) 530-2429",
@@ -316,7 +340,8 @@ export default function() {
               },
               {
                 "id": 24,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Ramos",
                   "lname": "Carney",
                   "phone": "(878) 498-3252",
@@ -329,7 +354,8 @@ export default function() {
               },
               {
                 "id": 25,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Bryant",
                   "lname": "Gardner",
                   "phone": "(892) 423-2574",
@@ -342,7 +368,8 @@ export default function() {
               },
               {
                 "id": 26,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Fry",
                   "lname": "Bradshaw",
                   "phone": "(926) 418-3945",
@@ -355,7 +382,8 @@ export default function() {
               },
               {
                 "id": 27,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Gilliam",
                   "lname": "Bass",
                   "phone": "(860) 475-3662",
@@ -368,7 +396,8 @@ export default function() {
               },
               {
                 "id": 28,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Salas",
                   "lname": "Ortiz",
                   "phone": "(851) 420-3931",
@@ -381,7 +410,8 @@ export default function() {
               },
               {
                 "id": 29,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Tyson",
                   "lname": "Tyson",
                   "phone": "(871) 431-3003",
@@ -394,7 +424,8 @@ export default function() {
               },
               {
                 "id": 30,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Carmela",
                   "lname": "Gregory",
                   "phone": "(817) 409-2677",
@@ -407,7 +438,8 @@ export default function() {
               },
               {
                 "id": 31,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Maribel",
                   "lname": "Stanton",
                   "phone": "(869) 501-2205",
@@ -420,7 +452,8 @@ export default function() {
               },
               {
                 "id": 32,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Lee",
                   "lname": "Mccormick",
                   "phone": "(929) 566-3413",
@@ -433,7 +466,8 @@ export default function() {
               },
               {
                 "id": 33,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Sloan",
                   "lname": "Hays",
                   "phone": "(805) 421-2757",
@@ -446,7 +480,8 @@ export default function() {
               },
               {
                 "id": 34,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Angelita",
                   "lname": "Rhodes",
                   "phone": "(904) 529-2886",
@@ -459,7 +494,8 @@ export default function() {
               },
               {
                 "id": 35,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Penelope",
                   "lname": "Ford",
                   "phone": "(938) 600-3675",
@@ -472,7 +508,8 @@ export default function() {
               },
               {
                 "id": 36,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Bolton",
                   "lname": "Parker",
                   "phone": "(852) 431-2495",
@@ -485,7 +522,8 @@ export default function() {
               },
               {
                 "id": 37,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Casey",
                   "lname": "Blair",
                   "phone": "(990) 564-3435",
@@ -498,7 +536,8 @@ export default function() {
               },
               {
                 "id": 38,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Erna",
                   "lname": "Burnett",
                   "phone": "(865) 431-3245",
@@ -511,7 +550,8 @@ export default function() {
               },
               {
                 "id": 39,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Emilia",
                   "lname": "Martinez",
                   "phone": "(901) 450-2793",
@@ -524,7 +564,8 @@ export default function() {
               },
               {
                 "id": 40,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Golden",
                   "lname": "Baxter",
                   "phone": "(896) 548-2074",
@@ -537,7 +578,8 @@ export default function() {
               },
               {
                 "id": 41,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Huff",
                   "lname": "Ramirez",
                   "phone": "(845) 517-3074",
@@ -550,7 +592,8 @@ export default function() {
               },
               {
                 "id": 42,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Griffin",
                   "lname": "Turner",
                   "phone": "(884) 535-2397",
@@ -563,7 +606,8 @@ export default function() {
               },
               {
                 "id": 43,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Mayra",
                   "lname": "Singleton",
                   "phone": "(851) 457-3663",
@@ -576,7 +620,8 @@ export default function() {
               },
               {
                 "id": 44,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "White",
                   "lname": "Gutierrez",
                   "phone": "(906) 585-3121",
@@ -589,7 +634,8 @@ export default function() {
               },
               {
                 "id": 45,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Crawford",
                   "lname": "Valencia",
                   "phone": "(832) 508-2148",
@@ -602,7 +648,8 @@ export default function() {
               },
               {
                 "id": 46,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Massey",
                   "lname": "Monroe",
                   "phone": "(902) 564-3620",
@@ -615,7 +662,8 @@ export default function() {
               },
               {
                 "id": 47,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "May",
                   "lname": "Rollins",
                   "phone": "(881) 497-3998",
@@ -628,7 +676,8 @@ export default function() {
               },
               {
                 "id": 48,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Duran",
                   "lname": "Mullins",
                   "phone": "(936) 586-2583",
@@ -641,7 +690,8 @@ export default function() {
               },
               {
                 "id": 49,
-                "details": {
+                "type": "user",
+                "attributes": {
                   "fname": "Caroline",
                   "lname": "Walter",
                   "phone": "(845) 572-2299",
@@ -658,3 +708,4 @@ export default function() {
         };
     });
 };
+
