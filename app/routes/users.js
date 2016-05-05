@@ -5,6 +5,7 @@ import InfinityRoute from "ember-infinity/mixins/route";
 
 var usersRoute = Ember.Route.extend(InfinityRoute, {
     model() {
+        console.log(":)");
         return this.infinityModel('user', { perPage: 12, startingPage: 1 });
     }
 });
